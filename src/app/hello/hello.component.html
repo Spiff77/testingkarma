@@ -1,0 +1,13 @@
+<p>hello works!</p>
+<span>{{count}}</span>
+<button (click)="increase()">Increase</button>
+
+<div [ngClass]="currentClass" (click)="toggleClass()">Hello</div>
+<input type="text" [(ngModel)]="currentClass" placeholder="className">
+challenge:
+ faire un div avec la class 'red'.
+ lorsqu'on clique dessus, la classe devient 'green'
+ (utilisez ngClass)
+
+Avec le test vérifier que le div a bien la class 'red' au démarage
+et vérifier que lors d'un click, la class se transform bien en 'green
